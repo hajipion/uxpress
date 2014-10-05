@@ -1,0 +1,59 @@
+/*
+Theme Name: WordBless
+Version: 1
+Author: Hajime Hirono
+*/
+
+$siteWidth: 960px;
+$MBsiteWidth: 100%;
+$mainBrown: #a6937c;
+$strongBrown: #665c51;
+$hColorStrong: #eee4d8;
+$hColorMiddle: #eee;
+$hColorWeek: #f6f9d9;
+
+
+@-webkit-keyframes boyon{
+  30% {
+    transform: scale(1.2);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background: #dcdcdc;
+	color: #444;
+	letter-spacing: 1.3px;
+}
+
+.center {
+  text-align: center;
+}
+
+.white-filter {
+  display: none;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  background: white;
+  z-index: 100;
+}
+
+.syntaxhighlighter {
+	border: 2px solid $mainBrown;
+}
+
+.single-thumbnail .attachment-post-thumbnail {
+  box-sizing: border-box;
+  border: 3px solid $hColorStrong;
+}
+

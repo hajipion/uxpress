@@ -1,0 +1,101 @@
+@mixin iconCat-forPost($cat) {
+  background: url("images/icon-"+$cat+".png") no-repeat;
+  background-position: left top;
+  background-size: 23px auto;
+}
+
+.post-box {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	background: white;
+	background-image: url("images/arrow-double-gray.png");
+	background-size: 13px auto;
+	background-repeat: no-repeat;
+	background-position: 97% 95%;
+	border-bottom: 3px solid #f4f4f4;
+	transition-property: background, background-image, background-position;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+	a {
+		box-sizing: border-box;
+		display: block;
+		padding: 5px;
+		height: 110px;
+	}
+	&:last-of-type {
+		border-bottom: none;
+		border-radius: 0 0 3px 3px;
+	}
+}
+
+.post-thumbnail {
+	position: absolute;
+	width: 40%;
+	height: 85px;
+	overflow: hidden;
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.post-caption {
+	margin-top: 2px;
+	width: 100%;
+}
+
+.post-header {
+	overflow: hidden;
+}
+
+.post-cat {
+	position: absolute;
+	top: 4px;
+	left: 43%;
+	padding-top: 6px;
+	padding-left: 25px;
+	height: 30px;
+	font-size: 11px;
+	color: #444;
+	@include iconCat-forPost(iphone);
+	&.cat-webservice {
+		@include iconCat-forPost(iphone);
+	}
+	&.cat-knowledge {
+		@include iconCat-forPost(book);
+	}
+	&.cat-technique {
+		@include iconCat-forPost(carl);
+	}
+	&.cat-event {
+		@include iconCat-forPost(clock);
+	}
+	&.cat-news {
+		@include iconCat-forPost(news);
+	}
+	&.cat-designacademy {
+		@include iconCat-forPost(designacademy);
+	}
+	opacity: 0.5;
+}
+
+.post-time {
+	position: absolute;
+	top: 97px;
+	left: 23px;
+	font-size: 9px;
+	color: #797979;
+	letter-spacing: 2px;
+}
+
+.post-title {
+	position: absolute;
+	top: 28px;
+	left: 44%;
+	clear: both;
+	font-size: 13px;
+	color: #444;
+	letter-spacing: 3px;
+	line-height: 20px;
+}

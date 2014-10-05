@@ -1,0 +1,91 @@
+.sidebar {
+	display: none;
+	position: fixed;
+	top: 70px;
+	left: 50%;
+	margin-left: -120px;
+	width: 240px;
+	z-index: 200;
+}
+
+.categories {
+	margin-top: 10px;
+	width: 100%;
+	a {
+		display: block;
+		text-decoration: none;
+		color: #444;
+	}
+	li {
+		padding-left: 40px;
+		border-bottom: 2px dashed #757575;
+		height: 56px;
+		line-height: 58px;
+	}
+	@mixin iconCat($cat) {
+		background: url("images/icon-"+$cat+".png") no-repeat;
+		background-position: left center;
+		background-size: 40px auto;
+	}
+	.cat-webapp {
+		@include iconCat(iphone);
+	}
+	.cat-knowledge {
+		@include iconCat(book);
+	}
+	.cat-technique {
+		@include iconCat(carl);
+	}
+	.cat-event {
+		@include iconCat(clock);
+	}
+	.cat-news {
+		@include iconCat(news);
+	}
+	.cat-designacademy {
+		@include iconCat(designacademy);
+	}
+}
+
+.search-text {
+	margin-top: 30px;
+	.search-box {
+		height: 50px;
+		box-sizing: border-box;
+		padding: 10px;
+		padding-left: 40px;
+		width: 100%;
+		background: none;
+		background-image: url("images/search.png");
+		background-repeat: no-repeat;
+		background-size: 24px auto;
+		background-position: 5% center;
+		border: 2px solid #333;
+		border-radius: 25px;
+		-moz-border-radius: 25px;
+		-webkit-border-radius: 25px;
+		-o-border-radius: 25px;
+		-ms-border-radius: 25px;
+		font-size: 15px;
+		color: $strongBrown;
+		transition-property: border, background-image, background-size, padding;
+		transition-duration: 0.1s;
+		transition-timing-function: ease-in-out;
+		&::-webkit-input-placeholder {
+			font-size: 11px;
+			line-height: 19px;
+			letter-spacing: 2px;
+		}
+		&:focus {
+			outline: none;
+			padding-left: 35px;
+			border: 2px solid $mainBrown;
+			background-image: url("images/search-on.png");
+			background-repeat: no-repeat;
+			background-size: 20px auto;
+			&::-webkit-input-placeholder {
+				opacity: 0;
+			}
+		}
+	}
+}

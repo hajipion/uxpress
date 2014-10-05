@@ -1,0 +1,18 @@
+.footer-stardard {
+	margin-top: 30px;
+	width: 100%;
+	height: 40px;
+	background: $mainBrown;
+	.footer-logo-s {
+		overflow: hidden;
+		margin-left: auto;
+		margin-right: auto;
+		width: $MBsiteWidth;
+		img {
+			float: right;
+			margin-top: 10px;
+			margin-right: 20px;
+			width: 37px;
+		}
+	}
+}

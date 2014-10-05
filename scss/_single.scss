@@ -1,0 +1,162 @@
+.single-post-time {
+	padding-top: 25px;
+	padding-bottom: 15px;
+	display: block;
+	font-size: 11px;
+	color: #7e6b5a;
+	text-align: center;
+}
+.single-post-title {
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 5px;
+	line-height: 1.7em;
+}
+.single-content {
+	box-sizing: border-box;
+	padding: 25px;
+	font-size: 16px;
+	color: #444;
+	letter-spacing: 2px;
+	line-height: 1.6em;
+	p {
+		margin-top: 10px;
+		margin-bottom: 25px;
+		margin-left: 15px;
+	}
+	strong {
+		font-weight: bold;
+		font-size: 23px;
+	}
+	small {
+		font-size: 12px;
+	}
+	@mixin hStyle {
+		box-sizing: border-box;
+		margin-bottom: 15px;
+		padding: 10px;
+		padding-left: 15px;
+		font-size: 20px;
+		line-height: 1.6em;
+	}
+	@mixin shortenElement($width) {
+		img, video, audio, input, button, table, canvas, progress, meter {
+			max-width: $width;
+			height: auto;
+		}
+		img {
+			box-sizing: border-box;
+			border: 3px solid $hColorMiddle;
+			&:hover {
+				opacity: 0.8;
+				border: 3px solid $hColorStrong;
+			}
+		}
+	}
+	.h2 {
+		margin-top: 30px;
+		margin-bottom: 50px;
+		width: 650px;
+		@include shortenElement(635px);
+		h2 {
+			background: $hColorStrong;
+			@include hStyle;
+		}
+		.h3 {
+			margin-top: 40px;
+			@include shortenElement(635px);
+			h3 {
+				border-bottom: 6px solid $hColorMiddle;
+				@include hStyle;
+				margin-bottom: 20px;
+				padding-bottom: 2px;
+			}
+			.h4 {
+				margin-top: 30px;
+				margin-left: 30px;
+				width: 620px;
+				@include shortenElement(605px);
+				h4 {
+					border-bottom: 3px dashed $hColorWeek;
+					@include hStyle;
+					margin-bottom: 20px;
+					padding-bottom: 2px;
+				}
+			}
+		}
+	}
+	&.page {
+		padding-top: 0;
+		.profile-text {
+			font-size: 16px;
+			line-height: 1.9em;
+		}
+		.award {
+			padding-top: 20px;
+			padding-left: 20px;
+			height: 300px;
+			background: url("images/profile-photo.png") no-repeat;
+			background-size: 240px auto;
+			background-position: 95% top;
+			font-size: 14px;
+			.award-list {
+				box-sizing: border-box;
+				line-height: 2.5em;
+				padding: 5px;
+				padding-left: 0;
+				border: 1px solid $hColorWeek;
+				color: #777;
+				.award-contest {
+					padding: 5px;
+					background: $hColorWeek;
+				}
+				.award-prize {
+					padding-right: 10px;
+				}
+			}
+		}
+	}
+}
+.single-thumbnail {
+	display: block;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	img {
+		max-width: 100%;
+	}
+}
+
+.horizon-gray {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	border: 0;
+	border-top: 1px solid #bfbfbf;
+}
+
+.single-to-top {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	width: 215px;
+	height: 58px;
+	background: url("images/back-toTop.png") no-repeat;
+	background-size: 215px auto;
+	text-indent: -9999px;
+	-webkit-transition: all .25s ease-in-out;
+	   -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+	        transition: all .25s ease-in-out;
+	&:hover {
+		background: url("images/back-toTop-on.png") no-repeat;
+		background-size: 215px auto;
+	}
+}

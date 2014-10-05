@@ -1,0 +1,51 @@
+.wrapper {
+	overflow: hidden;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: $siteWidth;
+}
+
+.main-contents {
+	float: left;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	width: 700px;
+	background: white;
+	box-shadow: 0 0 2px #444;
+	border-radius: 5px;
+}
+
+.main-content-header {
+	width: 100%;
+	background: #a6937c;
+	border-radius: 3px 3px 0 0;
+	.header-title {
+		padding-left: 25px;
+		height: 58px;
+		font-size: 20px;
+		line-height: 58px;
+		color: white;
+		letter-spacing: 5px;
+	}
+}
+
+.page-navi {
+	clear: both;
+	width: 100%;
+	border-top: 3px solid #f4f4f4;
+	.wp-pagenavi {
+		float: right;
+		margin-top: 20px!important;
+		margin-bottom: 20px!important;
+	}
+}
+
+.error {
+	line-height: 7em;
+	text-align: center;
+}
+
+.twitter-btn {
+	text-align: center;
+}
