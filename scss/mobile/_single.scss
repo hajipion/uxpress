@@ -59,15 +59,15 @@
 	.h2 {
 		margin-top: 30px;
 		margin-bottom: 50px;
-		width: 100%;
-		@include shortenElement(100%);
+		width: 97%;
+		@include shortenElement(97%);
 		h2 {
 			background: $hColorStrong;
 			@include hStyle;
 		}
 		.h3 {
 			margin-top: 40px;
-			@include shortenElement(100%);
+			@include shortenElement(97%);
 			h3 {
 				border-bottom: 6px solid $hColorMiddle;
 				@include hStyle;
@@ -77,7 +77,7 @@
 				margin-top: 30px;
 				margin-left: 10px;
 				width: 95%;
-				@include shortenElement(100%);
+				@include shortenElement(97%);
 				h4 {
 					border-bottom: 3px dashed $hColorStrong;
 					@include hStyle;
