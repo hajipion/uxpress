@@ -146,3 +146,39 @@
 	background-size: 215px auto;
 	text-indent: -9999px;
 }
+
+.link-to-single {
+	overflow: hidden;
+	@mixin linkSignleStyle {
+		display: block;
+		box-sizing: border-box;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		width: 40%;
+		line-height: 1.5em;
+		a {
+			color: #444;
+			&:hover {
+				color: $mainBrown;
+			}
+		}
+	}
+	.next-post-link {
+		@include linkSignleStyle;
+		float: left;
+		margin-left: 30px;
+		-moz-transform: rotate(-5deg);
+		-webkit-transform: rotate(-5deg);
+		-o-transform: rotate(-5deg);
+		-ms-transform: rotate(-5deg);
+	}
+	.prev-post-link {
+		@include linkSignleStyle;
+		float: right;
+		margin-right: 25px;
+		-moz-transform: rotate(5deg);
+		-webkit-transform: rotate(5deg);
+		-o-transform: rotate(5deg);
+		-ms-transform: rotate(5deg);
+	}
+}

@@ -38,6 +38,10 @@ body {
   box-sizing: border-box;
   border: 3px solid #eee4d8; }
 
+.syntaxhighlighter {
+  box-sizing: border-box;
+  padding: 10px !important; }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -588,7 +592,7 @@ table {
             opacity: 0.8;
             border: 3px solid #eee4d8; }
         .single-content .h2 .h3 .h4 h4 {
-          border-bottom: 3px dashed #f6f9d9;
+          border-bottom: 3px dashed #eee4d8;
           box-sizing: border-box;
           margin-bottom: 20px;
           padding: 10px;
@@ -656,5 +660,44 @@ table {
   .single-to-top:hover {
     background: url("images/back-toTop-on.png") no-repeat;
     background-size: 215px auto; }
+
+.link-to-single {
+  overflow: hidden; }
+  .link-to-single .next-post-link {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 310px;
+    line-height: 1.5em;
+    float: left;
+    margin-left: 30px;
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg); }
+    .link-to-single .next-post-link a {
+      color: #444; }
+      .link-to-single .next-post-link a:hover {
+        color: #a6937c; }
+  .link-to-single .prev-post-link {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 310px;
+    line-height: 1.5em;
+    float: right;
+    margin-right: 30px;
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg); }
+    .link-to-single .prev-post-link a {
+      color: #444; }
+      .link-to-single .prev-post-link a:hover {
+        color: #a6937c; }
 
 /*# sourceMappingURL=style.css.map */
