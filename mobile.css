@@ -121,7 +121,9 @@ table {
     margin-bottom: 20px !important; }
 
 .error {
-  line-height: 7em;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 1.2em;
   text-align: center; }
 
 .twitter-btn {

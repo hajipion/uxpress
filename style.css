@@ -123,7 +123,9 @@ table {
     margin-bottom: 20px !important; }
 
 .error {
-  line-height: 7em;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 1.2em;
   text-align: center; }
 
 .twitter-btn {
@@ -610,7 +612,8 @@ table {
     .single-content.page .award {
       padding-top: 20px;
       padding-left: 20px;
-      height: 300px;
+      height: auto;
+      min-height: 300px;
       background: url("images/profile-photo.png") no-repeat;
       background-size: 240px auto;
       background-position: 95% top;
