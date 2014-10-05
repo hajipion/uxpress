@@ -76,7 +76,7 @@
 				width: 95%;
 				@include shortenElement(100%);
 				h4 {
-					border-bottom: 3px dashed $hColorWeek;
+					border-bottom: 3px dashed $hColorStrong;
 					@include hStyle;
 					padding-bottom: 2px;
 				}
