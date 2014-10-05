@@ -458,6 +458,8 @@ table {
     margin-top: 10px;
     margin-bottom: 25px;
     margin-left: 15px; }
+  .single-content b {
+    font-weight: bold !important; }
   .single-content strong {
     font-weight: bold;
     font-size: 19px; }
