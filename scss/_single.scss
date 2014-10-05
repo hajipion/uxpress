@@ -48,7 +48,7 @@
 		line-height: 1.6em;
 	}
 	@mixin shortenElement($width) {
-		img, video, audio, input, button, table, canvas, progress, meter {
+		img, video, audio, input, button, table, canvas, progress, meter, iframe {
 			max-width: $width;
 			height: auto;
 		}
