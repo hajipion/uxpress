@@ -519,6 +519,7 @@ table {
 .single-content {
   box-sizing: border-box;
   padding: 25px;
+  padding-top: 5px;
   font-size: 16px;
   color: #444;
   letter-spacing: 2px;
@@ -548,7 +549,7 @@ table {
     .single-content .h2 h2 {
       background: #eee4d8;
       box-sizing: border-box;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
       padding: 10px;
       padding-left: 15px;
       font-size: 20px;
@@ -567,12 +568,11 @@ table {
       .single-content .h2 .h3 h3 {
         border-bottom: 6px solid #eee;
         box-sizing: border-box;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
         padding: 10px;
         padding-left: 15px;
         font-size: 20px;
         line-height: 1.6em;
-        margin-bottom: 20px;
         padding-bottom: 2px; }
       .single-content .h2 .h3 .h4 {
         margin-top: 30px;
@@ -590,12 +590,11 @@ table {
         .single-content .h2 .h3 .h4 h4 {
           border-bottom: 3px dashed #f6f9d9;
           box-sizing: border-box;
-          margin-bottom: 15px;
+          margin-bottom: 20px;
           padding: 10px;
           padding-left: 15px;
           font-size: 20px;
           line-height: 1.6em;
-          margin-bottom: 20px;
           padding-bottom: 2px; }
   .single-content.page {
     padding-top: 0; }
