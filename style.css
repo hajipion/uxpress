@@ -534,6 +534,9 @@ table {
     margin-top: 10px;
     margin-bottom: 25px;
     margin-left: 15px; }
+  .single-content ul li {
+    margin-left: 35px;
+    list-style-type: disc; }
   .single-content b {
     font-weight: bold !important; }
   .single-content strong {
