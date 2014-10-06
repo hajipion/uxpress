@@ -544,9 +544,9 @@ table {
   .single-content .h2 {
     margin-top: 30px;
     margin-bottom: 50px;
-    width: 650px; }
-    .single-content .h2 img, .single-content .h2 video, .single-content .h2 audio, .single-content .h2 input, .single-content .h2 button, .single-content .h2 table, .single-content .h2 canvas, .single-content .h2 progress, .single-content .h2 meter {
-      max-width: 635px;
+    width: 640px; }
+    .single-content .h2 img, .single-content .h2 video, .single-content .h2 audio, .single-content .h2 input, .single-content .h2 button, .single-content .h2 table, .single-content .h2 canvas, .single-content .h2 progress, .single-content .h2 meter, .single-content .h2 iframe {
+      max-width: 625px;
       height: auto; }
     .single-content .h2 img {
       box-sizing: border-box;
@@ -564,8 +564,8 @@ table {
       line-height: 1.6em; }
     .single-content .h2 .h3 {
       margin-top: 40px; }
-      .single-content .h2 .h3 img, .single-content .h2 .h3 video, .single-content .h2 .h3 audio, .single-content .h2 .h3 input, .single-content .h2 .h3 button, .single-content .h2 .h3 table, .single-content .h2 .h3 canvas, .single-content .h2 .h3 progress, .single-content .h2 .h3 meter {
-        max-width: 635px;
+      .single-content .h2 .h3 img, .single-content .h2 .h3 video, .single-content .h2 .h3 audio, .single-content .h2 .h3 input, .single-content .h2 .h3 button, .single-content .h2 .h3 table, .single-content .h2 .h3 canvas, .single-content .h2 .h3 progress, .single-content .h2 .h3 meter, .single-content .h2 .h3 iframe {
+        max-width: 625px;
         height: auto; }
       .single-content .h2 .h3 img {
         box-sizing: border-box;
@@ -586,7 +586,7 @@ table {
         margin-top: 30px;
         margin-left: 30px;
         width: 620px; }
-        .single-content .h2 .h3 .h4 img, .single-content .h2 .h3 .h4 video, .single-content .h2 .h3 .h4 audio, .single-content .h2 .h3 .h4 input, .single-content .h2 .h3 .h4 button, .single-content .h2 .h3 .h4 table, .single-content .h2 .h3 .h4 canvas, .single-content .h2 .h3 .h4 progress, .single-content .h2 .h3 .h4 meter {
+        .single-content .h2 .h3 .h4 img, .single-content .h2 .h3 .h4 video, .single-content .h2 .h3 .h4 audio, .single-content .h2 .h3 .h4 input, .single-content .h2 .h3 .h4 button, .single-content .h2 .h3 .h4 table, .single-content .h2 .h3 .h4 canvas, .single-content .h2 .h3 .h4 progress, .single-content .h2 .h3 .h4 meter, .single-content .h2 .h3 .h4 iframe {
           max-width: 605px;
           height: auto; }
         .single-content .h2 .h3 .h4 img {
