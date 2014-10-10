@@ -189,3 +189,14 @@
 		-ms-transform: rotate(5deg);
 	}
 }
+
+.single-ad-area {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 336px;
+	.ad-single:nth-child(2) {
+		display: none;
+	}
+}

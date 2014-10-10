@@ -393,6 +393,15 @@ table {
       .search-text .search-box:focus::-webkit-input-placeholder {
         opacity: 0; }
 
+.side-ad-area {
+  overflow: hidden; }
+
+.ad-side {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 160px; }
+
 .footer-stardard {
   margin-top: 30px;
   width: 100%;

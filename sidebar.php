@@ -8,4 +8,5 @@
 		<a href="<?php bloginfo('url'); ?>/?cat=9"><li class="cat-designacademy">Design Academy</li></a>
 	</ul>
 	<?php include (TEMPLATEPATH . '/searchform.php'); ?>
+	<?php include (TEMPLATEPATH . '/tmp-ad-side.php'); ?>
 </div>

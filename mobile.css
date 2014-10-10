@@ -321,6 +321,9 @@ table {
       .search-text .search-box:focus::-webkit-input-placeholder {
         opacity: 0; }
 
+.side-ad-area {
+  display: none; }
+
 .footer-stardard {
   margin-top: 30px;
   width: 100%;
@@ -614,5 +617,14 @@ table {
       color: #444; }
       .link-to-single .prev-post-link a:hover {
         color: #a6937c; }
+
+.single-ad-area {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 336px; }
+  .single-ad-area .ad-single:nth-child(2) {
+    display: none; }
 
 /*# sourceMappingURL=mobile.css.map */
