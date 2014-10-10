@@ -11,11 +11,13 @@
 					<p class="single-thumbnail">
 						<?php the_post_thumbnail(); ?>
 					</p>
+					<?php include (TEMPLATEPATH . '/tmp-ad-single.php'); ?>
 					<section class="single-content">
 						<?php the_content(); ?>
 					</section>
 				</article>
 				<p class="twitter-btn"><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-count="none">Tweet</a></p><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				<?php include (TEMPLATEPATH . '/tmp-ad-single.php'); ?>
 				<?php include (TEMPLATEPATH . '/tmp-to-single.php'); ?>
 				<?php include (TEMPLATEPATH . '/tmp-to-top.php'); ?>
 			<?php endwhile; ?>

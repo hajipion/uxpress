@@ -129,7 +129,8 @@ table {
   text-align: center; }
 
 .twitter-btn {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 20px; }
 
 .mainvisual {
   width: 100%;
@@ -641,6 +642,15 @@ table {
   margin-bottom: 10px; }
   .single-thumbnail img {
     max-width: 100%; }
+
+.single-ad-area {
+  overflow: hidden; }
+
+.ad-single {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 15px; }
 
 .horizon-gray {
   margin-top: 20px;
