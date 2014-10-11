@@ -477,9 +477,11 @@ table {
     margin-top: 30px;
     margin-bottom: 50px;
     width: 97%; }
-    .single-content .h2 img, .single-content .h2 video, .single-content .h2 audio, .single-content .h2 input, .single-content .h2 button, .single-content .h2 table, .single-content .h2 canvas, .single-content .h2 progress, .single-content .h2 meter, .single-content .h2 iframe {
+    .single-content .h2 img, .single-content .h2 video, .single-content .h2 audio, .single-content .h2 input, .single-content .h2 button, .single-content .h2 table, .single-content .h2 canvas, .single-content .h2 progress, .single-content .h2 meter {
       max-width: 97%;
       height: auto; }
+    .single-content .h2 iframe {
+      max-width: 97%; }
     .single-content .h2 img {
       box-sizing: border-box;
       border: 3px solid #eee; }
@@ -493,9 +495,11 @@ table {
       line-height: 1.6em; }
     .single-content .h2 .h3 {
       margin-top: 40px; }
-      .single-content .h2 .h3 img, .single-content .h2 .h3 video, .single-content .h2 .h3 audio, .single-content .h2 .h3 input, .single-content .h2 .h3 button, .single-content .h2 .h3 table, .single-content .h2 .h3 canvas, .single-content .h2 .h3 progress, .single-content .h2 .h3 meter, .single-content .h2 .h3 iframe {
+      .single-content .h2 .h3 img, .single-content .h2 .h3 video, .single-content .h2 .h3 audio, .single-content .h2 .h3 input, .single-content .h2 .h3 button, .single-content .h2 .h3 table, .single-content .h2 .h3 canvas, .single-content .h2 .h3 progress, .single-content .h2 .h3 meter {
         max-width: 97%;
         height: auto; }
+      .single-content .h2 .h3 iframe {
+        max-width: 97%; }
       .single-content .h2 .h3 img {
         box-sizing: border-box;
         border: 3px solid #eee; }
@@ -512,9 +516,11 @@ table {
         margin-top: 30px;
         margin-left: 10px;
         width: 95%; }
-        .single-content .h2 .h3 .h4 img, .single-content .h2 .h3 .h4 video, .single-content .h2 .h3 .h4 audio, .single-content .h2 .h3 .h4 input, .single-content .h2 .h3 .h4 button, .single-content .h2 .h3 .h4 table, .single-content .h2 .h3 .h4 canvas, .single-content .h2 .h3 .h4 progress, .single-content .h2 .h3 .h4 meter, .single-content .h2 .h3 .h4 iframe {
+        .single-content .h2 .h3 .h4 img, .single-content .h2 .h3 .h4 video, .single-content .h2 .h3 .h4 audio, .single-content .h2 .h3 .h4 input, .single-content .h2 .h3 .h4 button, .single-content .h2 .h3 .h4 table, .single-content .h2 .h3 .h4 canvas, .single-content .h2 .h3 .h4 progress, .single-content .h2 .h3 .h4 meter {
           max-width: 97%;
           height: auto; }
+        .single-content .h2 .h3 .h4 iframe {
+          max-width: 97%; }
         .single-content .h2 .h3 .h4 img {
           box-sizing: border-box;
           border: 3px solid #eee; }
