@@ -7,8 +7,10 @@ Author: Hajime Hirono
 @-webkit-keyframes boyon {
   30% {
     transform: scale(1.2); }
+
   75% {
     transform: scale(0.9); }
+
   100% {
     transform: scale(1); } }
 body {
@@ -132,16 +134,19 @@ table {
 @-webkit-keyframes nav_shorten {
   from {
     background: rgba(0, 0, 0, 0.3); }
+
   to {
     background: rgba(0, 0, 0, 0.8); } }
 @-webkit-keyframes nav_longer {
   from {
     background: rgba(0, 0, 0, 0.3); }
+
   to {
     background: rgba(0, 0, 0, 0.8); } }
 @-webkit-keyframes side_longer {
   from {
     background: rgba(0, 0, 0, 0.3); }
+
   to {
     background: rgba(0, 0, 0, 0.8); } }
 .main-nav {
@@ -476,7 +481,7 @@ table {
   .single-content .h2 {
     margin-top: 30px;
     margin-bottom: 50px;
-    width: 97%; }
+    width: 99%; }
     .single-content .h2 img, .single-content .h2 video, .single-content .h2 audio, .single-content .h2 input, .single-content .h2 button, .single-content .h2 table, .single-content .h2 canvas, .single-content .h2 progress, .single-content .h2 meter {
       max-width: 97%;
       height: auto; }
@@ -484,7 +489,7 @@ table {
       max-width: 97%; }
     .single-content .h2 img {
       box-sizing: border-box;
-      border: 3px solid #eee; }
+      border: 3px solid #eeeeee; }
     .single-content .h2 h2 {
       background: #eee4d8;
       box-sizing: border-box;
@@ -502,9 +507,9 @@ table {
         max-width: 97%; }
       .single-content .h2 .h3 img {
         box-sizing: border-box;
-        border: 3px solid #eee; }
+        border: 3px solid #eeeeee; }
       .single-content .h2 .h3 h3 {
-        border-bottom: 6px solid #eee;
+        border-bottom: 6px solid #eeeeee;
         box-sizing: border-box;
         margin-bottom: 20px;
         padding: 10px;
@@ -523,7 +528,7 @@ table {
           max-width: 97%; }
         .single-content .h2 .h3 .h4 img {
           box-sizing: border-box;
-          border: 3px solid #eee; }
+          border: 3px solid #eeeeee; }
         .single-content .h2 .h3 .h4 h4 {
           border-bottom: 3px dashed #eee4d8;
           box-sizing: border-box;
@@ -726,5 +731,3 @@ table {
   color: #444;
   letter-spacing: 3px;
   line-height: 20px; }
-
-/*# sourceMappingURL=tablet.css.map */
