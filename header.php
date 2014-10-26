@@ -28,9 +28,9 @@
 		</a>
 		<aside class="header-icons">
 			<a href="<?php bloginfo('url'); ?>/profile.html" class="icon-profile">このブログについて</a>
-			<a href="https://github.com/hajipion/" target="_blank" class="icon-github">GitHubアカウント</a>
+			<a href="https://www.facebook.com/uxpress.jp" target="_blank" class="icon-facebook">Facebookページ</a>
 			<a href="https://twitter.com/hajipion/" target="_blank" class="icon-twitter">Twitterアカウント</a>
-			<a href="https://www.facebook.com/hajime.hirono" target="_blank" class="icon-facebook">Facebookアカウント</a>
+			<a href="https://github.com/hajipion/" target="_blank" class="icon-github">GitHubアカウント</a>
 			<a href="<?php bloginfo('url'); ?>/feed/" target="_blank" class="icon-rss">このブログのRSS</a>
 		</aside>
 	</header>
