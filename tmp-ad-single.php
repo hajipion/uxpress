@@ -1,7 +1,7 @@
+<!--
 <div class="single-ad-area">
 	<div class="ad-single">
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- Ads336 under the posts -->
 		<ins class="adsbygoogle"
 		     style="display:inline-block;width:336px;height:280px"
 		     data-ad-client="ca-pub-1325377879579480"
@@ -12,7 +12,6 @@
 	</div>
 	<div class="ad-single">
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- Ads336 under the posts -->
 		<ins class="adsbygoogle"
 		     style="display:inline-block;width:336px;height:280px"
 		     data-ad-client="ca-pub-1325377879579480"
@@ -22,3 +21,4 @@
 		</script>
 	</div>
 </div>
+-->
