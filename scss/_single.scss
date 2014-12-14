@@ -147,13 +147,18 @@
 
 .single-ad-area {
 	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	width: 610px;
 }
 
 .ad-single {
 	float: left;
 	margin-top: 10px;
-	margin-left: 10px;
 	margin-bottom: 15px;
+	&:nth-child(2) {
+		margin-left: 10px;
+	}
 }
 
 .horizon-gray {

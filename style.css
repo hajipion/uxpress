@@ -404,9 +404,8 @@ table {
 
 .ad-side {
   margin-top: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 160px; }
+  margin-left: 5px;
+  width: 120px; }
 
 .footer-stardard {
   margin-top: 30px;
@@ -668,13 +667,17 @@ table {
     max-width: 100%; }
 
 .single-ad-area {
-  overflow: hidden; }
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  width: 610px; }
 
 .ad-single {
   float: left;
   margin-top: 10px;
-  margin-left: 10px;
   margin-bottom: 15px; }
+  .ad-single:nth-child(2) {
+    margin-left: 10px; }
 
 .horizon-gray {
   margin-top: 20px;
