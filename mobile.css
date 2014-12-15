@@ -641,5 +641,10 @@ table {
   width: 300px; }
   .single-ad-area .ad-single:nth-child(2) {
     display: none; }
+  .single-ad-area .recommend {
+    text-align: center;
+    margin-bottom: 10px; }
+    .single-ad-area .recommend small {
+      font-size: 10px; }
 
 /*# sourceMappingURL=mobile.css.map */

@@ -671,6 +671,10 @@ table {
   margin-left: auto;
   margin-right: auto;
   width: 610px; }
+  .single-ad-area .recommend {
+    margin-left: 65px; }
+    .single-ad-area .recommend small {
+      font-size: 12px; }
 
 .ad-single {
   float: left;
