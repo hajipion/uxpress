@@ -642,6 +642,7 @@ table {
   .single-ad-area .ad-single:nth-of-type(2) {
     display: none; }
   .single-ad-area .recommend {
+    display: none;
     text-align: center;
     margin-bottom: 10px; }
     .single-ad-area .recommend small {
