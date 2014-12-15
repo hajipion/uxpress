@@ -639,7 +639,7 @@ table {
   margin-left: auto;
   margin-right: auto;
   width: 300px; }
-  .single-ad-area .ad-single:nth-child(2) {
+  .single-ad-area .ad-single:nth-of-type(2) {
     display: none; }
   .single-ad-area .recommend {
     text-align: center;
