@@ -749,4 +749,7 @@ table {
       .link-to-single .prev-post-link a:hover {
         color: #a6937c; }
 
+.single-related {
+  margin-left: 25px; }
+
 /*# sourceMappingURL=style.css.map */
