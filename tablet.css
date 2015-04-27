@@ -7,12 +7,14 @@ Author: Hajime Hirono
 @-webkit-keyframes boyon {
   30% {
     transform: scale(1.2); }
+
   75% {
     transform: scale(0.9); }
+
   100% {
     transform: scale(1); } }
 body {
-  font-family: Avenir, 'Helvetica neue', Helvetica, '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  font-family: 'TBUDGoStd-SuperLight', Avenir, 'Helvetica neue', Helvetica, '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
   background: #dcdcdc;
   color: #444;
   letter-spacing: 1.3px; }
@@ -138,16 +140,19 @@ table {
 @-webkit-keyframes nav_shorten {
   from {
     background: rgba(0, 0, 0, 0.3); }
+
   to {
     background: rgba(0, 0, 0, 0.8); } }
 @-webkit-keyframes nav_longer {
   from {
     background: rgba(0, 0, 0, 0.3); }
+
   to {
     background: rgba(0, 0, 0, 0.8); } }
 @-webkit-keyframes side_longer {
   from {
     background: rgba(0, 0, 0, 0.3); }
+
   to {
     background: rgba(0, 0, 0, 0.8); } }
 .main-nav {
@@ -493,7 +498,7 @@ table {
       max-width: 97%; }
     .single-content .h2 img {
       box-sizing: border-box;
-      border: 3px solid #eee; }
+      border: 3px solid #eeeeee; }
     .single-content .h2 h2 {
       background: #eee4d8;
       box-sizing: border-box;
@@ -511,9 +516,9 @@ table {
         max-width: 97%; }
       .single-content .h2 .h3 img {
         box-sizing: border-box;
-        border: 3px solid #eee; }
+        border: 3px solid #eeeeee; }
       .single-content .h2 .h3 h3 {
-        border-bottom: 6px solid #eee;
+        border-bottom: 6px solid #eeeeee;
         box-sizing: border-box;
         margin-bottom: 20px;
         padding: 10px;
@@ -532,7 +537,7 @@ table {
           max-width: 97%; }
         .single-content .h2 .h3 .h4 img {
           box-sizing: border-box;
-          border: 3px solid #eee; }
+          border: 3px solid #eeeeee; }
         .single-content .h2 .h3 .h4 h4 {
           border-bottom: 3px dashed #eee4d8;
           box-sizing: border-box;
@@ -751,5 +756,3 @@ table {
   color: #444;
   letter-spacing: 3px;
   line-height: 20px; }
-
-/*# sourceMappingURL=tablet.css.map */

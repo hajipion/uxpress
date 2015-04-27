@@ -7,12 +7,14 @@ Author: Hajime Hirono
 @-webkit-keyframes boyon {
   30% {
     transform: scale(1.2); }
+
   75% {
     transform: scale(0.9); }
+
   100% {
     transform: scale(1); } }
 body {
-  font-family: Avenir, 'Helvetica neue', Helvetica, '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  font-family: 'TBUDGoStd-SuperLight', Avenir, 'Helvetica neue', Helvetica, '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
   background: #dcdcdc;
   color: #444;
   letter-spacing: 1.3px; }
@@ -573,7 +575,7 @@ table {
       max-width: 625px; }
     .single-content .h2 img {
       box-sizing: border-box;
-      border: 3px solid #eee; }
+      border: 3px solid #eeeeee; }
       .single-content .h2 img:hover {
         opacity: 0.8;
         border: 3px solid #eee4d8; }
@@ -594,12 +596,12 @@ table {
         max-width: 625px; }
       .single-content .h2 .h3 img {
         box-sizing: border-box;
-        border: 3px solid #eee; }
+        border: 3px solid #eeeeee; }
         .single-content .h2 .h3 img:hover {
           opacity: 0.8;
           border: 3px solid #eee4d8; }
       .single-content .h2 .h3 h3 {
-        border-bottom: 6px solid #eee;
+        border-bottom: 6px solid #eeeeee;
         box-sizing: border-box;
         margin-bottom: 20px;
         padding: 10px;
@@ -618,7 +620,7 @@ table {
           max-width: 605px; }
         .single-content .h2 .h3 .h4 img {
           box-sizing: border-box;
-          border: 3px solid #eee; }
+          border: 3px solid #eeeeee; }
           .single-content .h2 .h3 .h4 img:hover {
             opacity: 0.8;
             border: 3px solid #eee4d8; }
@@ -751,5 +753,3 @@ table {
 
 .single-related {
   margin-left: 25px; }
-
-/*# sourceMappingURL=style.css.map */
